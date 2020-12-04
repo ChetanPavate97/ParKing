@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ParKing</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="user">User Name</string>
+    <string name="passwor">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_hom">Hom</string>
+    <string name="title_activity_view_booking">ViewBooking</string>
+    <string name="title_activity_my_details">MyDetails</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_hm">Hm</string>
+    <string name="title_activity_aftr">Aftr</string>
+    <string name="title_activity_cc">CC</string>
+    <string name="title_activity_help">Help</string>
+    <string name="enter_booking_id">Enter Booking ID</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel_booking">CANCEL BOOKING</string>
+    <string name="booking_id">Booking ID</string>
+    <string name="date">Date</string>
+    <string name="name">NAME</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="email_id">EMAIL ID</string>
+    <string name="phone_no">PHONE NO</string>
+    <string name="reg_details">REG DETAILS</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="enter_email_id">Enter Email-id</string>
+    <string name="enter_contact">Enter Contact</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="enter">Enter</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_feedback">Enter Feedback</string>
+    <string name="duration">Duration (Hrs)</string>
+    <string name="price">Estimate Price</string>
+    <string name="slot_1">SLOT-1</string>
+    <string name="slot_3">SLOT-3</string>
+    <string name="slot_4">SLOT-4</string>
+    <string name="slot_2">SLOT-2</string>
+
+    <string-array name="vehicle">
+        <item>2 wheeler</item>
+        <item>4 wheeler</item>
+
+
+    </string-array>
+</resources>

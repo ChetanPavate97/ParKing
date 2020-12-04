@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lucifer.parking.MyDetails2"
+    tools:showIn="@layout/activity_my_details"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/welcomeText"
+            style="@style/viewParent.headerText"
+            android:layout_gravity="center"
+            android:text="My Details" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/M1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="75dp"
+        android:text="  Name"
+        android:drawableStart="@drawable/ic_person"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chetan"
+        android:id="@+id/M2"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/M1"
+        android:layout_marginStart="150dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="  Phone"
+        android:drawableStart="@drawable/ic_phone"
+        android:id="@+id/M3"
+        android:padding="10dp"
+        android:layout_below="@+id/M1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textIsSelectable="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="9829193324"
+        android:id="@+id/M4"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="150dp"
+        android:layout_alignTop="@+id/M3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="  Email"
+        android:drawableStart="@drawable/ic_email"
+        android:padding="10dp"
+        android:id="@+id/M5"
+        android:layout_below="@+id/M3"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/M6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/M5"
+        android:layout_marginStart="150dp"
+        android:text="abc@gmail.com"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</RelativeLayout>
